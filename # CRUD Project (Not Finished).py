@@ -81,7 +81,7 @@ def search_loans():
 
 
 def update_loan():
-    print("\n--- Update Loan ---")
+    print("Update Loan")
     try:
         loan_id = int(input("Enter loan ID to update: "))
     except ValueError:
@@ -116,4 +116,5 @@ def update_loan():
 
 
 if __name__ == "Main"
+
     main_menu()
