@@ -1,7 +1,27 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+print("1. Load Data")
+print("2. Calculate Statistics")
+print("3. Bar Chart")
+print("4. Line Chart")
+print("5. Pie Chart")
+print("6. Main Code")
+option=input("Enter a option:")
 
+
+if option = "1": 
+    load_data()
+if option = "2": 
+    calculate_statistics()
+if option = "3":
+    bar_chart_category()
+if option = "4": 
+    line_chart_sales
+if option = "5": 
+    pie_chart_units
+if option = "6":
+    main()
 
 
 def load_data():
@@ -95,4 +115,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
