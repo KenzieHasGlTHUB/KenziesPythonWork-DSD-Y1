@@ -7,7 +7,6 @@ def menu():
     flag = True
  
     while flag:
-        print("###############################################")
         print("Welcome! Please choose an option from the list")
         print("1. Show total sales for a specific item")
         print("2. Show lucnch  and dinner services for a specific item  ")
@@ -32,7 +31,7 @@ def get_product_choice():
     flag = True
  
     while flag:
-        print("######################################################")
+ 
         print("Please choose a menu item form the list:")
         print("Please enter the number of the item (1-8)")
         print("1.  Nachos")
@@ -43,7 +42,7 @@ def get_product_choice():
         print("6.  Corn")
         print("7.  Fries")
         print("8.  Salad")
-        print("######################################################")
+
  
         menu_list = ["Nachos","Soup","Burger", "Brisket","Ribs","Corn", "Fries", "Salad"]
  
@@ -68,7 +67,7 @@ def get_lunch_or_dinner():
     flag = True
  
     while flag:
-        print("#############################################")
+       
         print("1. Lunch Service")
         print("2. Dinner service ")
  
@@ -185,4 +184,5 @@ if main_menu_choice == "2": #Solution identifying trends and patterns over a per
         extract = df.loc[df['Lunch' or 'Dinner']]
         total = extract['Service'].sum()
         print("The total sales for this service is: {}".format(total))
+
         return extract 
